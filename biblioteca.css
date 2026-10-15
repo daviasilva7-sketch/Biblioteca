@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #1f2d16;
+    margin: 0;
+}
+
+h1{
+    color: #1f2d16;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 40px;
+     font-family: "Google Sans", sans-serif;
+}
+main{
+    color: aliceblue;
+    font-weight: 700;
+     font-family: "Google Sans", sans-serif;
+    font-size: larger;
+    display: block;
+    text-align: center;
+    margin-top: 120px;
+}
+
+div{
+    background-color: aliceblue;
+    color: #1f2d16;
+    display: block;
+    margin-top: 10px;
+    padding: 30px;
+    width: 30vw;
+    border-radius: 30px;
+    margin-left: 580px;
+    gap: 10px;
+}
+
+div, img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
+a{
+    color: #1f2d16;
+    text-decoration: none;
+}
+
+::selection{
+    background-color: darkgreen;
+    color: aliceblue;
+}
